@@ -1,0 +1,129 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selectors */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+   
+    background-color: darkolivegreen;
+    padding: 20px;
+    border-bottom: peachpuff solid 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+   position: relative;
+    margin-top: 100px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items:center;
+    
+  }
+  
+  header nav a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav a:hover {
+    color: #f60;
+  }
+  
+  main {
+    margin: 80px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  main figure {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+
+    
+  }
+  .centercontent {
+    display: flex;
+    justify-content: center;
+  }
+  main figure figcaption {
+    font-style: italic;
+    color: #999;
+  }
+  
+  section {
+    margin-top: 20px;
+    display: flex;
+   justify-content: center;
+  }
+  
+  section h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    
+  }
+  
+  section form label {
+   
+    margin-bottom: 5px;
+    font-size: 16px;
+      padding: 10px;
+  }
+  
+  section form input,
+  section form textarea {
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+
+   
+
+  }
+  
+
+  
+  section form button[type="submit"] {
+    display: block;
+ 
+    width: 75px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: brown;
+    
+    cursor: pointer;
+  }
+  
+  
+  
+  footer {
+    height: 40px;
+    padding-bottom: 2px;
+    text-align: center;
+    color: white;
+    background-color: darkolivegreen;
+  }
+  
+ 
+  
